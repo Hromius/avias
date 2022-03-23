@@ -1,0 +1,51 @@
+.checkbox{
+    display: flex;
+    flex-wrap: wrap;
+
+    font-size: 17px;
+    width: 290px;
+    height: 310px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+.checkbox span {
+    display: block;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.checkbox_label{
+    display: flex;
+    width: 300px;
+    height: 45px;
+    cursor: pointer; 
+}
+.checkbox_label:hover{
+   background-color: #F1FCFF; 
+}
+
+.checkbox_label :nth-child(n){
+margin-left: 20px;
+margin-right: 15px;
+}
+
+@media (max-width:827px){
+    .checkbox{
+        position: absolute;
+        margin-left: 20px;
+        width: 500px;
+        top:185px
+    };
+    .resultsBox{
+        position: absolute;
+        margin-top: 20px;
+    } 
+
+    .filter{
+        margin-bottom: 330px;
+    }
+}
+

@@ -1,0 +1,29 @@
+.filter{
+    
+    width: 500px;
+    height: 55px;
+    display: flex;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.filter :nth-child(n){
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid rgba(145, 138, 138, 0.16);
+    cursor: pointer;
+}
+.filter :nth-child(1){
+border-radius: 5px 0 0 5px;
+}
+
+.filter :nth-child(3){
+    border-radius: 0px 5px 5px 0px;
+}
+.flag{
+    background-color: #2196F3 !important;
+    color: white;
+}

@@ -1,0 +1,13 @@
+.findPanel{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+.resultsBox{
+margin-left: 20px;
+}
+
+@media (min-width:827px){
+    
+    }
